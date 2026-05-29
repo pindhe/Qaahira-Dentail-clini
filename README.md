@@ -153,53 +153,6 @@ Frontend:  http://localhost:3000
 API Docs:  http://localhost:8000/docs
 ```
 
----
-
-## 🔐 Environment Variables
-
-### Backend `.env`
-
-```env
-DATABASE_URL=postgresql://user:password@localhost:5432/qaahira_db
-SECRET_KEY=your-secret-key-here
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=30
-```
-
-### Frontend `.env.local`
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:8000
-NEXT_PUBLIC_APP_NAME=Qaahira Dental Clinic
-```
-
----
-
-## 🐳 Docker (Optional)
-
-```bash
-docker-compose up -d
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Pull requests are accepted.
-
-1. Fork the project
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See `LICENSE` for more information.
-
----
 
 ## 📬 Contact
 
